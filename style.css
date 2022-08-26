@@ -97,3 +97,31 @@ h1 {
     text-decoration: underline;
     font-size: 1.4rem;
   }
+  
+/*MEDIA QUERY */
+@media screen and (max-width: 400px) {
+  .body {
+    background: yellow;
+    padding: 10px;
+    max-width: auto;
+  }
+  h1 {
+    font-size: 1rem;
+  }
+  li {
+     font-size: 1rem;
+  }
+  li:hover {
+    font-size: .8rem;
+    transform: none;
+  }
+  button:hover {
+    transform: none;
+  }
+  footer, footer a {
+    font-size: .8rem;
+  }
+  footer a:hover {
+    font-size: 1rem;
+  }
+}
